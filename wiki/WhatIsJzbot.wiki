@@ -10,6 +10,8 @@ and the bot would say "Hello there."  JZBot does this slightly differently. You 
 
 ~factoid create testfact Hello there.
 
+For some technical documentation, see http://docs.google.com/Doc?id=dgm4m9gz_1d7jg3s85.
+
 Factoids currently can only be created by an op or a superop. In the future, I'll add commands for allowing channel ops to set the bot to allow factoids to be created by any member of the channel.
 
 Bot ops are not the same as IRC ops. Ops are set by superops when a bot is invited to a channel. Ops can add and remove other ops. Superops are in change of the entire robot, and there will typically be very few of them. For example, jcp's JZBot (which uses the nicknames jzbot and Marlen_Jackson on irc.freenode.net) has only two superops, jcp and Anthony_Luth.
