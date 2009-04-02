@@ -1,0 +1,19 @@
+JZBot is an IRC bot. It has functionality for sending a message to a channel when a user joins that channel, sending a pm to users when a person joins a channel, reporting the weather, and storing factoids. Factoids are set in a somewhat-unconventional manner for IRC bots. In infobot, you might do something like this:
+
+~testfact is Hello there.
+
+Then you could do 
+
+~testfact
+
+and the bot would say "Hello there."  JZBot does this slightly differently. You instead do this:
+
+~factoid create testfact Hello there.
+
+Factoids currently can only be created by an op or a superop. In the future, I'll add commands for allowing channel ops to set the bot to allow factoids to be created by any member of the channel.
+
+Bot ops are not the same as IRC ops. Ops are set by superops when a bot is invited to a channel. Ops can add and remove other ops. Superops are in change of the entire robot, and there will typically be very few of them. For example, jcp's JZBot (which uses the nicknames jzbot and Marlen_Jackson on irc.freenode.net) has only two superops, jcp and Anthony_Luth.
+
+JZBot authenticates users (ops and superops) by hostname. It's therefore recommended to get a hostmask, so that you can administer the bot from any location.
+
+JZBot is written by javawizard2539 (aka jcp on irc.freenode.net).
