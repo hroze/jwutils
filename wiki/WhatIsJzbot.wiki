@@ -18,4 +18,6 @@ Bot ops are not the same as IRC ops. Ops are set by superops when a bot is invit
 
 JZBot authenticates users (ops and superops) by hostname. It's therefore recommended to get a hostmask, so that you can administer the bot from any location.
 
+JZBot also supports writing commands in the logo programming language. You do this by running "~proc create PROCNAME". JZBot then sends you back a pastebin url, which contains a stub logo proc. You edit this and save your changes as a new paste, then run "~proc save http://pastebin.com/...", specifying the url of the new paste. This saves the procedure. Procedures can currently only be edited by superops and people granted access to the procedure, which is basically the person that created the procedure.
+
 JZBot is written by javawizard2539 (aka jcp on irc.freenode.net).
