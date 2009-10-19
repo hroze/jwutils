@@ -1,0 +1,35 @@
+This is JZBot's Factoid Language Reference.
+
+<wiki:toc/>
+
+=Preliminary=
+This document focuses soley on JZBot's factoid language. It does not focus on how to create, delete, or invoke factoids. The idea is that this manual would be just as applicable to a standalone factoid language interpreter as it would be to JZBot itself.
+
+=Overview=
+JZBot's factoid language is (to my knowledge) a turing-complete language. It contains extensive data processing capabilities.
+
+The factoid language was designed to be as unobtrusive as possible. By that, I mean that most simple pieces of text are valid factoid language programs that simply output their own text. To that end, all pieces of text that do not contain special character sequences are interpreted as literal text that is to be output or fed into a function.
+
+The factoid language has only one datatype, which is *text*. I'll be referring to individual pieces of text as *strings* throughout this documentation. The reason for this choice is that a programming language with only a textual datatype is considerably easier to learn than one that has multiple datatypes.
+
+There are three core concepts of the language syntax. The first concept serves to make the language turing-complete; the other two concepts are merely shorthand for the first.
+
+The first concept is *functions*. A factoid language program can contain as many function calls as it wants. Custom functions themselves can't be written; custom factoids, however, can, and they are the primary mechanism for defining subroutines.
+
+Functions accept as many arguments as are needed for the function to run. As with every other aspect of the language, function arguments are strings. Functions also return a value. This value is essentially placed where the function call was when the function is executed.
+
+Function calls are defined using two braces. They are closed with two matching braces. Function arguments are separated by sequences of two pipe characters. The first argument is the name of the function to call, and the rest of the arguments are 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
