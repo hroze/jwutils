@@ -1,3 +1,5 @@
+*Most of this stuff has moved to JZBot's new project, located [http://jzbot.googlecode.com here].*
+
 For information on the JZBot run by javawizard (the official JZBot), see http://marlenjackson.opengroove.org.
 
 JZBot is an IRC bot. It has functionality for sending a message to a channel when a user joins that channel, sending a pm to users when a person joins a channel, reporting the weather, and storing factoids. Factoids are set in a somewhat-unconventional manner for IRC bots. In infobot, you might do something like this:
