@@ -1,4 +1,4 @@
- _Most of this stuff has moved to JZBot's new project, located [http://jzbot.googlecode.com here]._
+ _Most of this stuff has moved to *JZBot's new project*, located [http://jzbot.googlecode.com here]._
 
 For information on the JZBot run by javawizard (the official JZBot), see http://marlenjackson.opengroove.org.
 
