@@ -1,0 +1,5 @@
+**NOTE: JWUtils has been merged into the [afn-tools](http://afn-tools.googlecode.com/) project. (All of the repository history has been preserved; you'll find every commit in JWUtils present in the afn-tools repository.) This project is now obsolete. The old description is given below.**
+
+A collection of utilities related to nothing in particular. For example, JWUtils includes a utility to encode text within an image (by slightly altering each pixel) and later extract the text from encoded image, and a utility to search for a particular pattern of bytes within a binary file.
+
+JWUtils also includes JMLogo, a Logo programming language interpreter for mobile phones, and JWMazer, a cell phone application that creates mazes. JWMazer currently includes only the recursive division maze generation algorithm, although I'm planning on adding support for random walking. JMLogo comes with a small maze generation program that's written in logo, and this one includes the random walking algorithm but is orders of magnitude slower.

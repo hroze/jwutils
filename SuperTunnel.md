@@ -1,0 +1,5 @@
+SuperTunnel is a program that tunnels normal TCP traffic over HTTP. I primarily designed it to get around the firewall at my dad's work when I go to work with him. The firewall blocks everything except HTTP and HTTPS, so I wrote SuperTunnel so that I can connect to my server via ssh by tunneling the ssh connection through SuperTunnel.
+
+I'll get more information up here soon on how to use SuperTunnel. If you're anxious, use an IRC client (do a google search for that if you don't know what it is) to connect to irc.freenode.net, join channel #bztraining, and ask jcp for help. Or send an email to the project owners of the jwutils project (which can be seen on the JWUtils home page, http://jwutils.googlecode.com).
+
+**SuperTunnel is now part of its own project, located [here](http://supertunnel.googlecode.com).**
